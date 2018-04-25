@@ -8,7 +8,23 @@ namespace ScrabbleScore.TestTools
   [TestClass]
   public class ScrabbleScoreTest
   {
+
     [TestMethod]
-    public void 
+    public void
+    {
+
+    }
+
+    [TestMethod]
+    public void ()
+    {
+
+    }
+    
+    [TestMethod]
+    public void ()
+    {
+
+    }
   }
 }
