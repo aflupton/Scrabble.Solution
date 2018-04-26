@@ -7,6 +7,5 @@ namespace ScrabbleScore.Models
 {
   public class ScrabbleScore
   {
-    private string[] = new string {}
   }
 }

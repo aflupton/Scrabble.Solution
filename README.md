@@ -32,6 +32,8 @@ _An app that finds the base Scrabble score of any word entered into the user int
 * _The program should handle multiple-letter inputs._
   * _Ex: input: "esquire" ; output: "Your score is: 16"_
 
+* _The program should then return the score to the user._
+  * _Ex: "Your score is: '——'"_
 
 
 ## Setup/Installation Requirements
@@ -53,7 +55,7 @@ _If you would like to contact me for any further information, email me at aflupt
 
 ## Technologies Used
 
-_C#, HTML, CSS/Bootstrap_
+_C#/.NET, HTML, CSS/Bootstrap_
 
 ### License
 
