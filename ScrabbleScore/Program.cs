@@ -1,7 +1,7 @@
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
 
-namespace ScrabbleScore
+namespace ScrabbleScoreApp
 {
     public class Program
     {

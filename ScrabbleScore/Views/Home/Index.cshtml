@@ -3,6 +3,31 @@
 }
 
 <div class="container">
-  
+  <form class="form-group" action="/Submit" method="post">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="form-group">
+          <label for="word"></label>
+          <input class="form-control"type="text" name="word" placeholder="Enter a word:">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="form-group">
+          <button type="submit" name="button"></button>
+        </div>
+      </div>
+    </div>
+  </form>
+  <br>
+  <div class="Results">
+    @if(Model != null)
+    {
+      <div class="row">
+        <div class="col-md-6">
+          <h4><em>Your word, @Model.GetWord(), has the following value: @Model.Score().</em></h4>
 
+        </div>
+      </div>
+    }
+  </div>
 </div>
